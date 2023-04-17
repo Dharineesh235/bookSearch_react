@@ -1,0 +1,29 @@
+.book-description{
+    background-color: burlywood;
+    padding: 20px;
+}
+.description-flex{
+    display: flex;
+    justify-content: start;
+}
+.description-info{
+    margin-left: 12%;
+}
+.desc-img-div{
+    object-fit: cover;
+}
+.desc-img{
+    width: 100%;
+}
+.desc-desc{
+    margin-top: 30px;
+}
+.bookDescLink{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3em;
+}
+.bookDescLink:hover{
+    color: rgb(244, 157, 51);
+    transition: all 0.2s;
+}

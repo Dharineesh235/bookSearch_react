@@ -1,0 +1,107 @@
+/* :root{
+    --primary-color:#755139FF;
+    --secondary-color:#D4B996FF;
+} */
+body{
+    background-color: rgb(54, 54, 54);
+}
+.auth-header{
+    width: 100%;
+    height: 340px;
+    color: var(--secondary-color);
+    box-shadow: 0 5px 10px rgb(171, 171, 170);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.auth-header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:url('https://collegewes.com/wp-content/uploads/2020/11/1920x1080-Affirmation-Page-Banner.jpg');
+    clip-path: circle(60% at left 200px);
+    z-index: -1;
+}
+.row2{
+    position: absolute;
+    top: 10px;
+    right: -24%;
+    text-align: center;
+}
+.row2 h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.row2 img{
+    margin-top: 30px;
+    width: 10%;
+    background: inherit;
+}
+.row1 h3{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: 35px;
+    color: white;
+}
+.row2 > div > input{
+    padding: 13px;
+    border:3px solid rgba(80, 199, 250, 0.6);
+}
+.img-top{
+    background-color: inherit;
+    border: none;
+    color: var(--secondary-color);
+    margin: -10px 1px 1px 2px;
+}
+
+.author-list-bottom{
+    min-height: 60vh;
+    /* margin-top: 50px; */
+    width: 100%;
+    background-color: rgb(47, 47, 47);
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.auth-i{
+    width: 55%;
+    align-items: center;
+    border: 10px solid rgb(167, 167, 166);
+    margin-bottom: 40px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.auth-img{
+    width: 100%;
+    height: 200px;
+}
+.h2_title{
+    width: 100%;
+    margin-top: 20px;
+    color: #D4B996FF
+}
+.fav-button{
+    margin: 10px;
+}
+.authors_book{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3em;
+}
+.authors_book:hover{
+    color: rgb(130, 130, 130);
+    transition: all 0.2s;
+}
+.authors_author{
+    color: rgb(155, 153, 153);
+    font-size: 1.3em;
+}
+.authorNameLink{
+    text-decoration: none;
+    color: gray;
+}

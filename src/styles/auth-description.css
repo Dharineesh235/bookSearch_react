@@ -1,0 +1,33 @@
+.auth-description{
+    background-color: rgb(159, 158, 158);
+}
+.authContentDiv{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 2%;
+
+}
+.authImg{
+    width: 20%;
+    object-fit: contain;
+}
+.authPic{
+    width: 100%;
+}
+.auth-content{
+    margin-left: 8%;
+}
+.authAnch{
+    text-decoration: none;
+    color: inherit;
+}
+.authDesc-link{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3em;
+}
+.authDesc-link:hover{
+    color: rgb(168, 168, 168);
+    transition: all 0.2s;
+}

@@ -1,0 +1,13 @@
+.nav{
+    /* height: 10vh; */
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    background-color: rgb(9, 9, 9,0.9);
+    color: white;
+}
+.foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

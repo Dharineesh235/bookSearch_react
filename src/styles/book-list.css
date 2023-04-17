@@ -1,0 +1,104 @@
+/* :root{
+    --primary-color:#755139FF;
+    --secondary-color:#D4B996FF;
+} */
+body{
+    background-color: #755139FF;
+}
+.header{
+    width: 100%;
+    height: 340px;
+    color: black; /*/var(--secondary-color) */
+    box-shadow: 0 5px 10px #D4B996FF;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:url('../../public/StackOfBooks.jpg');
+    clip-path: circle(60% at left 200px);
+    z-index: -1;
+}
+.row2{
+    position: absolute;
+    top: 10px;
+    right: -24%;
+    text-align: center;
+}
+.row2 h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.row2 img{
+    margin-top: 30px;
+    width: 10%;
+    background: inherit;
+}
+.row1 h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 35px;
+    color: white;
+}
+.row2 > div > input{
+    padding: 13px;
+    border:3px solid rgba(80, 199, 250, 0.6);
+}
+.img-top{
+    background-color: inherit;
+    border: none;
+    color: var(--secondary-color);
+    margin: -10px 1px 1px 2px;
+}
+
+.book-list-bottom{
+    min-height: 60vh;
+    /* margin-top: 50px; */
+    width: 100%;
+    background-color: #755139FF;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.book-i{
+    width: 55%;
+    align-items: center;
+    border: 10px solid #D4B996FF;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.book-img{
+    width: 100%;
+    height:200px;
+}
+.h2_title{
+    width: 100%;
+    margin-top: 20px;
+    color: #D4B996FF
+}
+.fav-button{
+    margin: 10px;
+}
+.bookList_books{
+    color: rgb(255, 195, 123);
+    font-size: 1.3em;
+}
+.bookList_Authors{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3em;
+}
+.bookList_Authors:hover{
+    color: burlywood;
+    transition: all 0.2s;
+    
+}
